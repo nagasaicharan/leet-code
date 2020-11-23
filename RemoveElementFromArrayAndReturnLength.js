@@ -1,12 +1,12 @@
-Given an array nums and a value val, remove all instances of that value in-place and return the new length.
+// Given an array nums and a value val, remove all instances of that value in-place and return the new length.
 
-Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+// Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
 
-The order of elements can be changed. It doesn't matter what you leave beyond the new length.
+// The order of elements can be changed. It doesn't matter what you leave beyond the new length.
 
-Clarification:
+// Clarification:
 
-Confused why the returned value is an integer but your answer is an array?
+// Confused why the returned value is an integer but your answer is an array?
 
 // Note that the input array is passed in by reference, which means a modification to the input array will be known to the caller as well.
 
@@ -20,7 +20,6 @@ Confused why the returned value is an integer but your answer is an array?
 // for (int i = 0; i < len; i++) {
 //     print(nums[i]);
 // }
- 
 
 // Example 1:
 
@@ -33,14 +32,12 @@ Confused why the returned value is an integer but your answer is an array?
 // Input: nums = [0,1,2,2,3,0,4,2], val = 2
 // Output: 5, nums = [0,1,4,0,3]
 // Explanation: Your function should return length = 5, with the first five elements of nums containing 0, 1, 3, 0, and 4. Note that the order of those five elements can be arbitrary. It doesn't matter what values are set beyond the returned length.
- 
 
 // Constraints:
 
 // 0 <= nums.length <= 100
 // 0 <= nums[i] <= 50
 // 0 <= val <= 100
-
 
 /**
  * @param {number[]} nums
